@@ -1,14 +1,9 @@
-package main
+package hello
 
 import (
 	"fmt"
-	"os"
 )
 
-func main() {
-	if len(os.Args) > 1 {
-		fmt.Println("Hello,", os.Args[1])
-	} else {
-		fmt.Println("Hello, World")
-	}
+func Say(name string) string {
+	return fmt.Sprintf("Hello, %s!", name)
 }
