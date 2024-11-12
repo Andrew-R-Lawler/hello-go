@@ -1,7 +1,7 @@
 # hello-go
+
 Hello, World!
 
-Test
+This is a simple go program with a default output.
 
-Test #2: WSL git push
-Test #3: Relaunched WSL to test if authentication sticks
+This program can also accept an argument to create a custom output.
