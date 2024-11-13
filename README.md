@@ -10,7 +10,7 @@ This program can also accept multiple arguments for custom outputs.
 
 Clone this repository onto your machine
 
-```bash
+```
 git clone https://github.com/Andrew-R-Lawler/hello-go.git
 ```
 
