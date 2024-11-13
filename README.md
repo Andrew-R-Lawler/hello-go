@@ -18,7 +18,7 @@ git clone https://github.com/Andrew-R-Lawler/hello-go.git
 
 In order to use this program you need to build the executable and move it into /usr/bin/
 
-```bash
+```
 cd hello-go/cmd/
 go build -o hello
 mv hello /usr/bin/
