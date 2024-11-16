@@ -14,7 +14,7 @@ Clone this repository onto your machine
 git clone https://github.com/Andrew-R-Lawler/hello-go.git
 ```
 
-# Windows
+### Windows
 
 ```
 cd hello-go/cmd/
@@ -22,7 +22,7 @@ go build -o hello.exe
 mv hello %USERPATH%\go\bin
 ```
 
-# Linux
+### Linux
 
 ```
 cd hello-go/cmd/
@@ -34,14 +34,14 @@ mv hello /usr/bin/
 
 call the exe from the command line alone or with multiple arguments
 
-# Without Arguments
+### Without Arguments
 
 ```shell-session
 root@user:~$ hello
 Hello, World!
 ```
 
-# With Arguments
+### With Arguments
 
 ```shell-session
 root@user:~$ hello Andrew Leah
