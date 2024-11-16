@@ -16,13 +16,17 @@ git clone https://github.com/Andrew-R-Lawler/hello-go.git
 
 ### Windows
 
+to make it executeable globally on the command line for windows you need to build it with the .exe file type in the name and then move it to your go binaries folder
+
 ```
-cd hello-go/cmd/
+cd hello-go\cmd\
 go build -o hello.exe
 mv hello %USERPATH%\go\bin
 ```
 
 ### Linux
+
+to make your program executable globally on the command line for linux you need to build your file and move it to the user binaries directory
 
 ```
 cd hello-go/cmd/
