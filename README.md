@@ -14,9 +14,15 @@ Clone this repository onto your machine
 git clone https://github.com/Andrew-R-Lawler/hello-go.git
 ```
 
-## Usage
+# Windows
 
-In order to use this program you need to build the executable and move it into /usr/bin/.
+```
+cd hello-go/cmd/
+go build -o hello.exe
+mv hello %USERPATH%\go\bin
+```
+
+# Linux
 
 ```
 cd hello-go/cmd/
@@ -24,5 +30,20 @@ go build -o hello
 mv hello /usr/bin/
 ```
 
-after the executable has been moved to /usr/bin/ you can run the program with the hello command and any number of arguments, all arguments will be formatted into the programs output.
+## Usage
 
+call the exe from the command line alone or with multiple arguments
+
+# Without Arguments
+
+```shell-session
+root@user:~$ hello
+Hello, World!
+```
+
+# With Arguments
+
+```shell-session
+root@user:~$ hello Andrew Leah
+Hello, Andrew, Leah!
+```
